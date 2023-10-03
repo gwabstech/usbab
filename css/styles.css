@@ -91,6 +91,7 @@
   }
 }
 
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -10848,4 +10849,11 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
+}
+.progress-container {
+  display: none;
+}
+
+.progress-message {
+  display: none;
 }
