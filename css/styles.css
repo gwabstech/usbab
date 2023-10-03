@@ -10857,3 +10857,32 @@ html {
 .progress-message {
   display: none;
 }
+
+/* Custom CSS for proper alignment */
+.contact-info {
+  text-align: center;
+}
+
+.phone-numbers {
+  display: flex;
+  flex-direction: column;
+  /* Arrange phone numbers vertically */
+  gap: 10px;
+  /* Adjust the gap between phone numbers */
+}
+
+.phone {
+  font-size: 16px;
+}
+
+.email {
+  margin-top: 20px;
+  /* Adjust the margin between phone numbers and email */
+}
+
+.social-icons {
+  margin-top: 20px;
+  /* Adjust the margin between email and social icons */
+}
+
+/* Adjust styling as needed */
